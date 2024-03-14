@@ -1,0 +1,71 @@
+@font-face {
+    font-family: console; 
+    src: url(fonts/437.ttf);
+}
+
+body {
+    background-color: #00a;
+    font-family: console;
+	font-size: 22px;
+	color:white;
+	text-indent: 4px;
+	margin-top:1%;
+}
+
+.out-of-frame-1 {
+    margin-bottom: 2%;
+    white-space: nowrap;
+}
+
+.main {
+    border: 4px double white;
+    /* padding: 10px; */
+    position: absolute;
+    top: 8%;
+    left: 1%;
+    right: 1%;
+    bottom: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4%;
+}
+
+a {
+    margin-top: 0.6%;
+    margin-left: 2%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+  
+/*
+a:hover {
+    display: inline-block;
+    max-width: max-content;
+    max-height: min-content;
+    padding: 10px;
+    color: white;
+    background-color: red;
+}
+*/
+
+a.active {
+    display: inline-block;
+    max-width: max-content;
+    max-height: min-content;
+    padding: 10px;
+    color: white;
+    background-color: red;
+}
+
+.horizontal-line {
+    border-top: 3px solid white;
+    width: 96%;
+    margin-top: 10%;
+    padding: 2%;
+}
