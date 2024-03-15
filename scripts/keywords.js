@@ -18,4 +18,10 @@ document.addEventListener("keydown", function(event) {
         links[activeIndex - 1].classList.add("active");
       }
     }
+    if (event.key === "Enter") {
+      event.preventDefault();
+      if (activeIndex !== -1) {
+          window.location = links[activeIndex].getAttribute("href");
+      }
+  }
 });
